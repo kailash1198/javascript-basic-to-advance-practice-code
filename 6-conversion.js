@@ -24,3 +24,10 @@
 
 // let myStr = Number("kailash");
 // console.log(typeof myStr);
+
+// let myNum = 10;
+// console.log(typeof myNum);
+
+// let newNum = String(myNum);
+
+// console.log(typeof newNum);

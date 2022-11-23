@@ -1,11 +1,16 @@
-var firstName = "Kailash";
+// var firstName = "Kailash";
 
-console.log(firstName);
+// console.log(firstName);
 
-firstName = "Aryan";
+// firstName = "Aryan";
 
-console.log(firstName);
+// console.log(firstName);
 
-let secondName = "kumar";
-secondName = "second Name content";
-console.log(secondName);
+// let secondName = "kumar";
+// secondName = "second Name content";
+// console.log(secondName);
+
+// const myAge = 18;
+// console.log(myAge);
+// myAge = 290;
+// console.log(myAge);
