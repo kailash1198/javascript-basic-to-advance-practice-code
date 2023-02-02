@@ -24,3 +24,12 @@
 // }
 // isEven(5);
 // console.log(isEven(67));
+
+// console.log("hh")
+
+// function myFunc(a) {
+//     return a + 50;
+// }
+
+
+// console.log(myFunc(20));
