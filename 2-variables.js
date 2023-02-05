@@ -14,3 +14,9 @@
 // console.log(myAge);
 // myAge = 290;
 // console.log(myAge);
+
+// var numOne = 10;
+// console.log(numOne);
+
+// var myName = "Aryan Singh";
+// console.log(myName);

@@ -9,3 +9,7 @@
 
 // let myName = "Kailash Kumar";
 // console.log(`myName is ${myName} and my name also is ${myName}`);
+
+let myName = 'kailash Kumar';
+console.log(myName);
+console.log("Hello World!");
