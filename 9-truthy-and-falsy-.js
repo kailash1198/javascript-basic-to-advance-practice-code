@@ -16,9 +16,9 @@
 
 
 // TRUTHY VALUE 
-// let firstName = "Kailash";
-// if (firstName) {
-//     console.log(firstName)
-// } else {
-//     console.log("firstName is kind empty");
-// }
+let firstName = "Kailash";
+if (firstName) {
+    console.log(firstName)
+} else {
+    console.log("firstName is kind empty");
+}
