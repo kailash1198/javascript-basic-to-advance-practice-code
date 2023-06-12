@@ -79,7 +79,6 @@ function example() {
 // let firstName = "Kailash";
 // let lastName = "Kumar";
 
-
 // let myName = "Kailash";
 // console.log(typeof myName);
 
@@ -98,7 +97,6 @@ function example() {
 //   greet();
 // }
 
-
 // let myNum;
 
 // console.log(typeof myNum);
@@ -113,14 +111,11 @@ function example() {
 // console.log(myObject.userName);
 // console.log(myObject.userAddress);
 
-
 // let myArray = [10, 11,12];
 
 // console.log(myArray);
 
 // console.log(myArray[1]);
-
-
 
 // function myFunc(a,b){
 //   return a+b;
@@ -129,9 +124,6 @@ function example() {
 // let funcValue = myFunc(10,11);
 
 // console.log(funcValue);
-
-
-
 
 // ============================================================
 //                    3.      OPERATORS
@@ -148,7 +140,6 @@ function example() {
 // if(numOne>=numTwo){
 //   console.log("Num one greater than num two");
 // }
-
 
 // ============================================================
 //                    4.      IF ELSE STATEMENTS
@@ -178,9 +169,97 @@ function example() {
 //                    5.      LOOPS
 // ============================================================
 
-let myNum = 10;
+// let myNum = 10;
 
 // while (myNum<=20) {
 //   console.log(myNum);
 //   myNum++;
 // }
+
+// let myNum = 10;
+// for (let i = 0; i <= 20; i++) {
+//   console.log(i);
+// }
+
+// for(let j = 1; j<=myNum; j++){
+//   console.log('The number is : ${myNum(j)}');
+// }
+
+// let i = -10;
+// while(i<=10){
+//   console.log(i);
+//   i++;
+// }
+
+
+// do{
+//   console.log(i);
+//   i++;
+// }while(i<=10);
+
+// const myArray = [1,2,3,4,15];
+
+// for(const i of myArray){
+//   console.log(i);
+// }
+
+
+// const myObject = {
+//   firstName : "Kailash",
+//   lastName : "Kumar",
+//   myAge : 25,
+// }
+
+
+
+// for(const i in myObject){
+//   console.log(i);
+// }
+
+
+
+// ============================================================
+//                    6.      FUNCTION & SCOPES
+// ============================================================
+
+// function myFunc(userName, userAge){
+// console.log(`The user name is : ${userName} and the user age is : ${userAge}`);
+// }
+
+// myFunc("Kailash Kumar", 25);
+// myFunc("Aryan Kumar", 20);
+
+// ============================================================
+//                    7.      ARRAY & OBJECTS
+// ============================================================
+
+// let firstArray = [1,2,443,4365];
+// let secondArray = ["Mango", "Papaya", "Banana", "Apple"];
+
+// console.log(firstArray);
+// console.log(secondArray);
+
+// console.log(secondArray[0]);
+// console.log(secondArray[1]);
+
+
+// secondArray[0] = "Kailash";
+// console.log(secondArray[0]);
+
+// console.log(secondArray.length);
+
+
+// let userData = {
+//   userName : "Kailash Kumar",
+//   userParents : "Papa and Mom",
+//   userLocation : "Bangalore",
+//   userAge : 25
+// }
+
+// console.log(userData);
+// console.log(userData.userName);
+
+
+// ============================================================
+//                    8.      DOM : DOCUMENT OBJECT MODEL
+// ============================================================

@@ -1,5 +1,2 @@
-const person = {
-//     name: "kailash",
-//     age: 22,
-//     hobbies: ["Guitar", "sleeping", "coding"]
-// };
+console.log(secondArray[0]);
+// console.log(secondArray[1]);
