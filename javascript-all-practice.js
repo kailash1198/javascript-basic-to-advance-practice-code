@@ -191,7 +191,6 @@ function example() {
 //   i++;
 // }
 
-
 // do{
 //   console.log(i);
 //   i++;
@@ -203,20 +202,15 @@ function example() {
 //   console.log(i);
 // }
 
-
 // const myObject = {
 //   firstName : "Kailash",
 //   lastName : "Kumar",
 //   myAge : 25,
 // }
 
-
-
 // for(const i in myObject){
 //   console.log(i);
 // }
-
-
 
 // ============================================================
 //                    6.      FUNCTION & SCOPES
@@ -242,12 +236,10 @@ function example() {
 // console.log(secondArray[0]);
 // console.log(secondArray[1]);
 
-
 // secondArray[0] = "Kailash";
 // console.log(secondArray[0]);
 
 // console.log(secondArray.length);
-
 
 // let userData = {
 //   userName : "Kailash Kumar",
@@ -259,7 +251,30 @@ function example() {
 // console.log(userData);
 // console.log(userData.userName);
 
-
 // ============================================================
 //                    8.      DOM : DOCUMENT OBJECT MODEL
 // ============================================================
+
+// let myHeader = document.getElementById('header-text');
+
+// myHeader.style.backgroundColor = "red";
+
+// let headingText = document.getElementsByClassName("header-text");
+
+// for(let i = 0; i<headingText.length; i++){
+//   headingText[i].style.color = 'red';
+// }
+
+
+// let myTagHeading = document.getElementsByTagName('h1');
+// for(let i = 0; i<myTagHeading.length; i++){
+//   myTagHeading[i].style.color = 'red';
+// }
+
+// let myHeading = document.querySelectorAll('.header-text');
+// for(let i = 0; i<myHeading.length; i++){
+// myHeading[i].style.color = 'red';
+// }
+
+// let myBody = document.getElementById('body');
+// console.log(myBody);
