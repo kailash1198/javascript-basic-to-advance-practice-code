@@ -278,3 +278,25 @@ function example() {
 
 // let myBody = document.getElementById('body');
 // console.log(myBody);
+
+// let myHeading = document.getElementById('header-text');
+
+// myHeading.innerText = "Now text Changed";
+
+// myHeading.innerHTML = "<b>Now bold<b>";
+// myHeading.innerText = "<b>Now text Changed<b>";
+
+// let getAttri = myHeading.getAttribute('id');
+// console.log(getAttri);
+
+// myHeading.setAttribute('class', 'head-class');
+
+// let myHeader = document.getElementById('body');
+
+// myHeader.addEventListener('scroll', function(){
+//   console.log("Event triggred");
+// })
+
+// myHeader.addEventListener('click', function(){
+//   console.log("Okay");
+// })
