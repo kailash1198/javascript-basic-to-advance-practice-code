@@ -265,7 +265,6 @@ function example() {
 //   headingText[i].style.color = 'red';
 // }
 
-
 // let myTagHeading = document.getElementsByTagName('h1');
 // for(let i = 0; i<myTagHeading.length; i++){
 //   myTagHeading[i].style.color = 'red';
@@ -275,28 +274,53 @@ function example() {
 // for(let i = 0; i<myHeading.length; i++){
 // myHeading[i].style.color = 'red';
 // }
-
 // let myBody = document.getElementById('body');
 // console.log(myBody);
-
 // let myHeading = document.getElementById('header-text');
-
 // myHeading.innerText = "Now text Changed";
-
 // myHeading.innerHTML = "<b>Now bold<b>";
 // myHeading.innerText = "<b>Now text Changed<b>";
-
 // let getAttri = myHeading.getAttribute('id');
 // console.log(getAttri);
-
 // myHeading.setAttribute('class', 'head-class');
-
 // let myHeader = document.getElementById('body');
-
 // myHeader.addEventListener('scroll', function(){
 //   console.log("Event triggred");
 // })
-
 // myHeader.addEventListener('click', function(){
 //   console.log("Okay");
 // })
+
+// === event object (e) ======
+// let myBtn = document.getElementById('btn');
+// myBtn.addEventListener('click', function(e){
+//   console.log(e);
+//   console.log(e.type);
+//   console.log(e.timeStamp);
+// })
+
+
+// ======= event bubbling ======== 
+// let boxBtn = document.getElementById('box-btn');
+// boxBtn.addEventListener('click', function(e){
+//   e.stopPropagation();
+//   console.log('Box btn clicked');
+// })
+
+// let myContainer = document.getElementById('container');
+// myContainer.addEventListener('click', function(e){
+//   console.log('Container box clicked');
+
+// })
+
+
+// === event capturing ========= 
+// let boxBtn = document.getElementById("box-btn");
+// boxBtn.addEventListener("click", function (e) {
+//   console.log("Box btn clicked");
+// }, true);
+
+// let myContainer = document.getElementById("container");
+// myContainer.addEventListener("click", function (e) {
+//   console.log("Container box clicked");
+// }, true);
