@@ -324,3 +324,21 @@ function example() {
 // myContainer.addEventListener("click", function (e) {
 //   console.log("Container box clicked");
 // }, true);
+
+// ===============================================
+                    //  9. FUNCTION 
+// ================================================
+/*
+let userName, userNumber, userPassword;
+function userData(){
+  userName = prompt('What is your Name');
+  userNumber = prompt("What is your Number");
+  userPassword = prompt('What is your password');
+}
+
+let myBtn = document.getElementById('box-btn');
+myBtn.addEventListener('click', function(e){
+userData();
+});
+*/
+
