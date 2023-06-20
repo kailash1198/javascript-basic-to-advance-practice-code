@@ -301,29 +301,61 @@ function example() {
 
 
 // ======= event bubbling ======== 
-// let boxBtn = document.getElementById('box-btn');
-// boxBtn.addEventListener('click', function(e){
-//   e.stopPropagation();
-//   console.log('Box btn clicked');
-// })
+/*
+let boxBtn = document.getElementById('box-btn');
+boxBtn.addEventListener('click', function(e){
+  e.stopPropagation();
+  console.log('Box btn clicked');
+})
 
-// let myContainer = document.getElementById('container');
-// myContainer.addEventListener('click', function(e){
-//   console.log('Container box clicked');
+let myContainer = document.getElementById('container');
+myContainer.addEventListener('click', function(e){
+  console.log('Container box clicked');
 
-// })
-
+})
+*/
 
 // === event capturing ========= 
-// let boxBtn = document.getElementById("box-btn");
-// boxBtn.addEventListener("click", function (e) {
-//   console.log("Box btn clicked");
-// }, true);
+/*
+let boxBtn = document.getElementById("box-btn");
+boxBtn.addEventListener("click", function (e) {
+  console.log("Box btn clicked");
+}, true);
 
-// let myContainer = document.getElementById("container");
-// myContainer.addEventListener("click", function (e) {
-//   console.log("Container box clicked");
-// }, true);
+let myContainer = document.getElementById("container");
+myContainer.addEventListener("click", function (e) {
+  console.log("Container box clicked");
+}, true);
+*/
+
+
+// ==== SELECTING ELEMENTS =========== 
+/*let IdSelector = document.getElementById('header');
+IdSelector.style.backgroundColor = 'black';
+
+let classSelector = document.getElementsByClassName('header-class');
+
+let quarySelector = document.querySelector('#header');
+let allQuarySelector = document.querySelectorAll('#header');
+
+let tagSelector = document.getElementsByTagName('header');
+
+*/
+
+// ============== MANIPULATING ELEMENTS =============== 
+
+// ELEMENT CREATION 
+/*let myHeader = document.getElementById('header');
+let newElement = document.createElement('button');
+newElement.innerText = "Okay Ji";
+newElement.setAttribute('id', 'btn');
+document.body.appendChild(newElement);*/
+
+// ELEMENT MANIPULATION
+let myPara = document.getElementById('para');
+myPara.innerHTML = '<h1>This new Paragraph edited from javascript manipulation</h1>';
+myPara.innerText = 'This is new text';
+
 
 // ===============================================
                     //  9. FUNCTION 
